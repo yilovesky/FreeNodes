@@ -1,157 +1,101 @@
 proxies:
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1F3\U0001F1F1NL²_1|0.6MB/s|GPT|X"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+      short-id: '23'
+    server: nl4.pineappled.org
+    tls: true
+    type: vless
+    udp: true
+    uuid: 71322f86-f37a-4929-ada0-05e6a2688145
+    xudp: true
+    servername: www.apple.com
+  - cipher: none
+    name: "\U0001F1ED\U0001F1F0HK¹⁺_1|1.3MB/s|D+|X|History|[广播|机房]"
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      host: ylnhh.us.ci
+      mode: websocket
+      mux: false
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\
+      tls: true
+    port: 443
+    server: 185.241.41.72
+    type: ss
+    udp: true
   - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_1|0.9MB/s|GPT⁺|YT|X|History|[原生|机房]"
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_1|1.7MB/s|GPT⁺|X|History"
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     port: 38388
-    server: 103.186.155.79
-    type: ss
-  - cipher: chacha20-ietf
-    name: "\U0001F1ED\U0001F1F0HK²_1|0.6MB/s|X|History"
-    password: asd123456
-    port: 8388
-    server: 103.149.183.80
+    server: 103.186.154.69
     type: ss
   - cipher: aes-256-cfb
     country: "\U0001F1E8\U0001F1F3 CN"
-    name: "\U0001F1FB\U0001F1F3VN²_2|1.8MB/s|X|History"
+    name: "\U0001F1FB\U0001F1F3VN²_2|0.6MB/s|GPT|YT-US|X|History|[原生|机房]"
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     port: 38388
-    server: 103.186.155.112
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_3|0.9MB/s|GPT⁺|YT-US|X|History"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.154.70
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_4|1.3MB/s|GPT|GM|YT|X|[原生|机房]"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.26
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_5|2.3MB/s|GPT|YT-US|X|History|[原生|机房]"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.33
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_6|0.6MB/s|GPT|X|History"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.128
-    type: ss
-  - alpn:
-      - http/1.1
-    client-fingerprint: random
-    name: "\U0001F1F0\U0001F1F7KR¹-SG⁰_1|3.5MB/s|X"
-    network: ws
-    port: 32920
-    server: 203.170.125.48
-    tls: true
-    type: vless
-    udp: true
-    uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-    ws-opts:
-      headers:
-        Host: snippet.gfw.nn.kg
-      path: /danfeng
-    servername: snippet.gfw.nn.kg
-  - name: "\U0001F3F4‍☠_1\U0001F1EE\U0001F1E9ID²_1|0.6MB/s|1.2MB/s|X|History"
-    password: ''
-    port: 8199
-    server: 223.25.110.37
-    skip-cert-verify: true
-    type: socks5
-    username: ''
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_7|0.8MB/s|GPT|X|History"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.222
+    server: 103.186.155.82
     type: ss
   - cipher: aes-256-cfb
     country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_8|1.7MB/s|GPT⁺|X|[原生|机房]"
+    name: "\U0001F1FB\U0001F1F3VN²_3|1.0MB/s|X|History"
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     port: 38388
-    server: 103.186.154.21
+    server: 103.186.154.64
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_4|2.7MB/s|GPT⁺|GM|YT|X|Succeed|[原生|机房]"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.244
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_5|2.0MB/s|GPT⁺|GM|YT|X|History"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.233
     type: ss
   - cipher: aes-256-cfb
     country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_9|1.1MB/s|GPT|X|History|[原生|机房]"
+    name: "\U0001F1FB\U0001F1F3VN²_6|2.2MB/s|GPT⁺|YT-US|X|Succeed"
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     port: 38388
-    server: 103.186.154.220
+    server: 103.186.154.190
     type: ss
-  - alpn:
-      - ''
-    alterId: '0'
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8US²_1|4.6MB/s|X|History|[广播|机房]"
-    network: ws
-    port: 2086
-    server: hb.seacloudmachinery.com
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: "rootface\U0001F480"
-    ws-opts:
-      headers: {}
-      path: /telegram id @rootface
-    xudp: true
-    client-fingerprint: chrome
-    servername: hb.seacloudmachinery.com
-  - name: "\U0001F1ED\U0001F1F0HK²_2|3.8MB/s|YT-CN|X|History"
-    password: <password>
-    port: 8443
-    server: 9e8b2077-t9zts0-tdq4vj-1l0qa.hkt.cdnhuawei.com
-    tls: true
-    type: http
-    udp: true
-    username: 0720c874-35e8-11ef-aa88-f23c913c8d2b
-    sni: 9e8b2077-t9zts0-tdq4vj-1l0qa.hkt.cdnhuawei.com
-  - name: "\U0001F1F0\U0001F1F7KR²_1|0.9MB/s|YT|X|History"
-    password: test.+
-    port: 30446
-    server: testkr3.ssv.vc
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-    username: test
-    sni: testkr3.ssv.vc
-  - alpn:
-      - http/1.1
-    client-fingerprint: random
-    name: "\U0001F1F0\U0001F1F7KR¹-SG⁰_2|2.0MB/s|5%|D+|X|[广播|机房]"
-    network: ws
-    port: 17988
-    server: 125.137.81.171
-    tls: true
-    type: vless
-    udp: true
-    uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
-    ws-opts:
-      headers:
-        Host: snippet.fgfw.ndjp.net
-      path: /danfeng
-    servername: snippet.fgfw.ndjp.net
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1ZZ"
+    name: "\U0001F1FB\U0001F1F3VN²_7|1.9MB/s|GPT|GM|YT|X|History|[原生|机房]"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.234
+    type: ss
   - cipher: aes-256-cfb
     country: "\U0001F3C1 ZZ"
-    name: "\U0001F1FB\U0001F1F3VN²_10|1.1MB/s|GPT|GM|X|History"
+    name: "\U0001F1FB\U0001F1F3VN²_8|3.0MB/s|GPT⁺|YT-US|X|Succeed|[原生|机房]"
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     port: 38388
-    server: 103.186.155.109
+    server: 103.186.154.183
     type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN²_9|1.7MB/s|GPT⁺|GM|YT|X|History"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.156
+    type: ss
+    udp: true
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
